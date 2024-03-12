@@ -7,7 +7,7 @@ local Screen = script.Parent.Parent.ScreenGui
 
 
     local inv = Roact.createElement(inventory, {
-        isVisible = true
+        isVisible = false
     })
 
     local handle = Roact.mount(inv, game.Players.LocalPlayer.PlayerGui.ScreenGui)
